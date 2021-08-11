@@ -76,4 +76,5 @@ int main(){
     pop(p);
 
     printPilha(p);
+    return 0;
 }

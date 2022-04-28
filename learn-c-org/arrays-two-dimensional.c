@@ -39,9 +39,9 @@ void two_dimensional_char_array(){
         {'a', 'e', 'i', 'o', 'u'}
     };
 
-    for(int i = 0; i < 1; i++){
-        for(int j = 0; j <= 0; j++){
-            printf("%s", &vowels[i][j]);
+    for(int i = 0; i < 2; i++){
+        for(int j = 0; j < 5; j++){
+            printf("%c ", vowels[i][j]);
             
         }
         printf("\n");
